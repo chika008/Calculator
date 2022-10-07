@@ -73,7 +73,6 @@ body {
   transition: fill .3s ease-in-out;
 }
 
-
 .dark-theme:hover {
   fill: #F1754E;
 }
