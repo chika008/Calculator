@@ -59,18 +59,32 @@ body {
   align-items: end;
 }
 
-.dark-theme {
+
+.them-btn {
+  position: relative;
   background-color: transparent;
   fill: #858585;
   border: none;
   padding: 0;
   line-height: 1;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
   transition: fill .3s ease-in-out;
 }
 
+
 .dark-theme:hover {
   fill: #F1754E;
+}
+
+.light-theme {
+  fill: #ffffff;
+  display: none;
+}
+
+.light-theme:hover {
+  fill: #38B9FF;
 }
 
 .buttons {
@@ -140,7 +154,7 @@ body {
 }
 
 .zero {
-  max-width: 144px;
+  max-width: 140px;
   width: 100%;
 }
 
@@ -178,5 +192,59 @@ body {
 .calc__values {
   font-size: 24px;
   line-height: 36px;
+  color: #818181;
+}
+
+/* dark-theme */
+
+.calc--dark {
+  background: linear-gradient(191.34deg, #17181A -4.95%, #17181A 103.74%);
+}
+
+.btn--dark {
+  background-color: #303136;
+  border: none;
+  color: #F1754E;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.btn--dark:hover {
+  background-color: #F1754E;
+  color: #ffffff;
+}
+
+.btn--default-color-dark {
+  background-color: #616161;
+  color: #A5A5A5;
+  fill: #A5A5A5;
+  border: none;
+}
+
+.btn--bg-red-200 {
+  background-color: #f88a69;
+  color: #ffffff;
+  fill: #ffffff;
+  border: none;
+}
+
+.btn--bg-red-200:hover {
+  background-color: #c66345;
+}
+
+.equal--dark {
+  background-color: #FB5825;
+  color: #ffbeab;
+  border: none;
+}
+
+.equal--dark:hover {
+  background-color: #ff3c00;
+}
+
+.calc__result--dark {
+  color: white;
+}
+
+.calc__values--dark {
   color: #818181;
 }
