@@ -53,6 +53,7 @@ body {
 }
 
 .calc__screen {
+  overflow: hidden;
   width: 100%;
   display: flex;
   flex-direction: column;
